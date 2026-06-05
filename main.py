@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import tkinter as tk
 from tkinter import ttk, messagebox, font
 import sqlite3
@@ -138,3 +139,6 @@ def registrar_venda(total, pago, troco, itens_texto):
     """, (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), total, pago, troco, itens_texto))
     conn.commit()
     conn.close()
+=======
+
+>>>>>>> 256b14ee5e8abac35a537e0629206275730f3557
