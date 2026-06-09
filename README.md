@@ -42,8 +42,9 @@ mercado_povo_FG/
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/Neto-User/mercado_povo_FG.git
-cd mercado_povo_FG
+git clone https://github.com/Neto-User/Mercado-Povo.git OU
+git clone git@github.com:Neto-User/Mercado-Povo.git
+cd Mercado-Povo
 ```
 
 ### 2. Crie um Ambiente Virtual
