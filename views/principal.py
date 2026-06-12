@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from config import FONTE, BRANCO, CINZA_CLARO, CINZA_ESCURO, PRETO, VERMELHO
+from acessibilidade.painel import PainelAcessibilidade
 from database import buscar_por_codigo, salvar_venda
 
 class TelaPrincipal(tk.Frame):
@@ -8,6 +9,7 @@ class TelaPrincipal(tk.Frame):
         super().__init__(pai, bg=CINZA_CLARO)
         self.app = app
         self._build()
+        
 
     def _build(self):
         # barra do topo
@@ -25,6 +27,11 @@ class TelaPrincipal(tk.Frame):
         tk.Button(barra, text="Produtos", command=lambda: self.app.mostrar_tela("TelaProdutos"),
                   bg=CINZA_ESCURO, fg=BRANCO, font=(FONTE, 9), bd=0,
                   cursor="hand2").pack(side="right", pady=8, padx=4)
+        
+        tk.Button(barra, text="Acessibilidade",
+          command=lambda: PainelAcessibilidade(self, self.winfo_toplevel()),
+          bg=CINZA_ESCURO, fg=BRANCO, font=(FONTE, 9), bd=0,
+          cursor="hand2").pack(side="right", pady=8, padx=4)
 
         # campo de codigo e quantidade
         corpo = tk.Frame(self, bg=CINZA_CLARO)
