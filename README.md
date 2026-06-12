@@ -127,6 +127,14 @@ Para reinicializar o banco de dados, remova o arquivo `mercado.db` e execute a a
 **Banco de dados corrompido**
 - Delete o arquivo `mercado.db` e reinicie a aplicação
 
-## Autores
+## Autores / Contribuidores
 
-Desenvolvido por Neto-User
+| Usuario | Commits |
+|---------|---------|
+| [@Neto-User](https://github.com/Neto-User) | 13 |
+| [@Andreymn2007](https://github.com/Andreymn2007) | 4 |
+| [@lopessdev7](https://github.com/lopessdev7) | 2 |
+| [@Gustavo-Faber](https://github.com/Gustavo-Faber) | 2 |
+| [@snwpdro](https://github.com/snwpdro) | 2 |
+| [@JohnSilva70](https://github.com/JohnSilva70) | 1 |
+| [@goldenpfp](https://github.com/goldenpfp) | 1 |
