@@ -4,6 +4,14 @@ Link do protótipo No Figma: [Mercado_povo_FG](https://www.figma.com/proto/e6Awo
 
 Aplicação de gerenciamento de mercado desenvolvida em Python com interface gráfica utilizando Tkinter.
 
+## Download
+
+![versão](https://img.shields.io/badge/versão-1.0.0-brightgreen?style=for-the-badge)
+
+
+| Sistema | Link |
+|---------|------|
+| Linux x86_64 | [MercadoDoPovo-1.0.0-linux-x86_64](https://github.com/Neto-User/Mercado-Povo/releases/download/v1.0.0/MercadoDoPovo-1.0.0-linux-x86_64) |
 ## Estrutura do Projeto
 
 ```
